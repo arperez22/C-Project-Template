@@ -8,7 +8,7 @@ git clone https://github.com/arperez22/C-Project-Template.git
 ```
 
 ## Usage
-With a vew modifications to the Makefile and main.c, this project template can be converted to a C++ project
+With a few modifications to the Makefile and main.c, this project template can be converted to a C++ project
 
 In the Makefile, Change:
 ```
@@ -33,7 +33,11 @@ To run the project, use the following commmands:
 ```bash
 make
 ```
-Then run:
+Then run in git bash:
 ```bash
 ./bin/main
+```
+Or the following in powershell or command prompt:
+```
+.\bin\main
 ```
