@@ -29,7 +29,11 @@ OBJ_FILES = $(SRC_FILES:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 ```
 
-To run the project, use the following commmand:
+To run the project, use the following commmands:
 ```bash
 make
+```
+Then run:
+```bash
+./bin/main
 ```
